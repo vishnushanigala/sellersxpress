@@ -1,0 +1,58 @@
+body {
+  font-family: 'Roboto Slab', serif;
+    padding: 10px;
+    margin: 35px;
+  }
+  
+  h1 {
+    color: rgb(255, 26, 179);
+    font-size: 5em;
+    text-align:center;
+  }
+  
+  body {
+    background-color: rgb(173, 216, 230);
+  }
+  
+  p{
+     text-decoration-color: brown;
+  }
+  
+  button{
+    color: rgb(255, 0, 4);
+  }
+  
+  address{
+    color: blue;
+  }
+  
+  .go-back-btn {
+    border-radius: 8%;
+    background-color: aqua;
+  }
+  
+  /* .sellers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  .sellerDetails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  
+  .flex {
+    margin: 5vw 5vh;
+  }
+  
+  .maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw 5vh;
+  }
+  

@@ -1,0 +1,5 @@
+prompt("enter your name");
+prompt("enter your gf name");
+var lovescore=math.random()*100;
+lovescore=math.floor(lovescore)+1;
+alert("your love score is"+lovescore+"%");

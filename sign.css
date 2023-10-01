@@ -1,0 +1,33 @@
+&:last-child { 
+    margin:0;
+  }
+}
+}
+
+.button {
+border:0;
+outline:none;
+border-radius:0;
+padding:15px 0;
+font-size:2rem;
+font-weight:$bold;
+text-transform:uppercase;
+letter-spacing:.1em;
+background:$main;
+color:$white;
+transition:all.5s ease;
+-webkit-appearance: none;
+&:hover, &:focus {
+  background:$main-dark;
+}
+}
+
+.button-block {
+display:block;
+width:100%;
+}
+
+.forgot {
+margin-top:-20px;
+text-align:right;
+}
